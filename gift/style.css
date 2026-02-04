@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive;
+    background: linear-gradient(to bottom right, #ffc0cb, #ffb6c1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container, .thankyou {
+    background: #fff0f5;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #ff4d6d;
+}
+
+.teddy {
+    width: 220px;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+    position: relative;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#noBtn {
+    background-color: #aaa;
+    color: white;
+    position: absolute;
+}
+
+.thankyou {
+    display: none;
+}
+
+#emotionText {
+    color: #ff4d6d;
+    font-size: 14px;
+    min-height: 40px;
+    margin-top: 10px;
+    font-style: italic; 
+}
